@@ -13,7 +13,7 @@ from todo.bash_completion import installation
 from todo.bash_completion.installation import TODO_AUTOCOMPLETION_MARK
 
 
-class BaseTestInstallAutocompletion(TestCase):
+lass BaseTestInstallAutocompletion(TestCase):
 	def setUp(self):
 		# Global definition of Path instances requires us to make pyfakefs reload
 		# the module
