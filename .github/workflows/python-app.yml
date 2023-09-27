@@ -37,5 +37,5 @@ jobs:
 
     - name: Run Unit Tests
       run: |
-        python source/test.py 
+        python test.py 
       working-directory: source
